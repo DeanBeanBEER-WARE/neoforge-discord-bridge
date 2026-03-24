@@ -1,4 +1,4 @@
-package dev.dean.ja.discordrankbridge;
+package discordrankbridge;
 
 import com.sun.net.httpserver.HttpServer;
 import org.slf4j.Logger;

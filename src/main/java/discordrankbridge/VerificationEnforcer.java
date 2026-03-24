@@ -1,4 +1,4 @@
-package dev.dean.ja.discordrankbridge;
+package discordrankbridge;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;

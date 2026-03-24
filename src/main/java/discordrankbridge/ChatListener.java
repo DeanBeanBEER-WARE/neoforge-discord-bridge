@@ -1,4 +1,4 @@
-package dev.dean.ja.discordrankbridge;
+package discordrankbridge;
 
 import com.google.gson.JsonObject;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -46,7 +46,7 @@ public class ChatListener {
                 @Override
                 public void append(LogEvent event) {
                     // CRITICAL: Ignore messages coming from our own mod's package
-                    if (event.getLoggerName().startsWith("dev.dean.ja.discordrankbridge")) {
+                    if (event.getLoggerName().startsWith("discordrankbridge")) {
                         return;
                     }
 

@@ -1,4 +1,4 @@
-package dev.dean.ja.discordrankbridge.mixin;
+package discordrankbridge.mixin;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.players.PlayerList;

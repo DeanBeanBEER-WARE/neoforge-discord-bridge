@@ -1,4 +1,4 @@
-package dev.dean.ja.discordrankbridge;
+package discordrankbridge;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

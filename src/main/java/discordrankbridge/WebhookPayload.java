@@ -1,4 +1,4 @@
-package dev.dean.ja.discordrankbridge;
+package discordrankbridge;
 
 public class WebhookPayload {
     public String action;

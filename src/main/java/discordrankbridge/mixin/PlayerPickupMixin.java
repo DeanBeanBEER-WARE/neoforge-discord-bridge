@@ -1,6 +1,6 @@
-package dev.dean.ja.discordrankbridge.mixin;
+package discordrankbridge.mixin;
 
-import dev.dean.ja.discordrankbridge.VerificationEnforcer;
+import discordrankbridge.VerificationEnforcer;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
@@ -21,7 +21,7 @@ public class PlayerPickupMixin {
         if (player instanceof ServerPlayer serverPlayer) {
             // Get the VerificationEnforcer from the static accessor
             try {
-                VerificationEnforcer enforcer = dev.dean.ja.discordrankbridge.DiscordRankBridge.getStaticVerificationEnforcer();
+                VerificationEnforcer enforcer = discordrankbridge.DiscordRankBridge.getStaticVerificationEnforcer();
                 if (enforcer != null && !enforcer.canPickupItems(serverPlayer.getUUID())) {
                     // Cancel the pickup
                     ci.cancel();
