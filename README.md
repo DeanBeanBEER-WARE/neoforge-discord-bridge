@@ -12,6 +12,61 @@ Discord Rank Bridge is a NeoForge 1.21.1 modification designed to connect Minecr
 - **Player Statistics:** Tracks and stores playtime and session metadata, integrating tightly with TAB to display real-time information.
 - **Webhook Server:** Dedicated built-in HTTP server listening for commands and state updates triggered directly from Discord bots.
 
+## Modules
+
+The project is structured into several key modules handling specific aspects of the bridge:
+
+- `DiscordRankBridge`: The main mod entry point handling initialization, events, and lifecycle.
+- `Config` / `MessageConfig`: Handles TOML-based settings and JSON-based customized text formats.
+- `WebhookServer` / `WebhookHandler`: Built-in HTTP server to receive and process JSON payloads from Discord.
+- `ChatListener`: Intercepts in-game chat to forward it to Discord via webhooks.
+- `LuckPermsService`: Manages player permission groups via LuckPerms API.
+- `VerificationService` / `VerificationEnforcer`: Manages the Discord-Minecraft account linking process and restricts unverified players.
+- `MaintenanceService`: Manages whitelist and server access during maintenance.
+- `MuteService`: Handles local player mutes, tracking duration and expiry.
+- `PlayerStatsService`: Tracks player statistics such as kills, deaths, and playtime.
+- `AfkTracker`: Monitors player movement, rotation, and chat to determine AFK status.
+- `TabPlaytimeIntegration`: Integrates with the TAB plugin to provide custom placeholders like `%drb_playtime%` and `%drb_afk%`.
+- `CommandHandler`: Registers in-game commands like `/verify` and `/debugplaytime`.
+- `Mixin` classes: `PlayerListMixin` and `PlayerPickupMixin` to modify vanilla behavior for AFK suppression and unverified item pickup prevention.
+
+## File Structure
+
+```text
+DiscordRankBridge-MDK/
+├── build.gradle
+├── gradle.properties
+├── settings.gradle
+├── README.md
+└── src/
+    └── main/
+        ├── java/
+        │   └── discordrankbridge/
+        │       ├── mixin/
+        │       │   ├── PlayerListMixin.java
+        │       │   └── PlayerPickupMixin.java
+        │       ├── AfkTracker.java
+        │       ├── ChatListener.java
+        │       ├── CommandHandler.java
+        │       ├── Config.java
+        │       ├── DiscordRankBridge.java
+        │       ├── LuckPermsService.java
+        │       ├── MaintenanceService.java
+        │       ├── MessageConfig.java
+        │       ├── MuteService.java
+        │       ├── PlayerStatsService.java
+        │       ├── TabPlaytimeIntegration.java
+        │       ├── VerificationEnforcer.java
+        │       ├── VerificationService.java
+        │       ├── WebhookHandler.java
+        │       ├── WebhookPayload.java
+        │       └── WebhookServer.java
+        └── resources/
+            ├── META-INF/
+            │   └── neoforge.mods.toml
+            └── discordrankbridge.mixins.json
+```
+
 ## Prerequisites
 
 - Minecraft 1.21.1
