@@ -13,16 +13,35 @@ out
 *.iml
 .idea
 
+# vscode
+.vscode
+.vscode/
+
 # gradle
 build
 .gradle
 
-# other
-eclipse
+# minecraft/forge/neoforge
 run
 runs
 run-data
+logs/
+crash-reports/
+mods/
+userjvmargs.txt
+*.log
 
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# other
+eclipse
 repo
 AGENT.md
 NEOFORGE-MDK-SETUP.md
