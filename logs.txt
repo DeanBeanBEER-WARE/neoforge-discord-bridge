@@ -1,0 +1,216 @@
+[18:59:43] [main/WARN] [KubeJS Server/]: KubeRecipe.java#89: Failed to parse recipe 'create_sa:incomplete_book_recipe[create:sequenced_assembly]'! Falling back to vanilla: Failed to read required component 'results: create:processing_output[]' - java.lang.IllegalStateException: No key id in MapLike[{"chance":100.0,"count":3,"item":{"id":"minecraft:book"}}]
+[18:59:43] [main/WARN] [KubeJS Server/]: KubeRecipe.java#89: Failed to parse recipe 'createfood:create/filling/berry_cream_cake_from_filling_berry_cream_frosting[create:filling]'! Falling back to vanilla: Failed to read required component 'results: either<fluid_stack, create:processing_output>[]' - java.lang.IllegalStateException: Failed to parse either. First: No key amount in MapLike[{"item":{"id":"createfood:berry_cream_cake"}}]; No key id in MapLike[{"item":{"id":"createfood:berry_cream_cake"}}]; Second: No key id in MapLike[{"item":{"id":"createfood:berry_cream_cake"}}]
+[18:59:43] [main/WARN] [KubeJS Server/]: KubeRecipe.java#89: Failed to parse recipe 'createaddition:mixing/biomass_from_plants[create:mixing]'! Falling back to vanilla: Failed to read required component 'ingredients: either<create:sized_fluid_ingredient, ingredient>[]' - java.lang.IllegalStateException: Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / neoforge:fluid_ingredient_type]: minecraft:fluid_tag; Unknown registry key in ResourceKey[minecraft:root / neoforge:fluid_ingredient_type]: minecraft:fluid_tag; Second: Failed to parse either. First: Not a json array: {"type":"fluid_tag","amount":100,"fluid_tag":"c:plantoil"}; Second: Unknown registry key in ResourceKey[minecraft:root / neoforge:ingredient_serializer]: minecraft:fluid_tag
+[18:59:43] [main/WARN] [KubeJS Server/]: KubeRecipe.java#89: Failed to parse recipe 'createfood:create/pressing/dark_chocolate_chips_from_pressing[create:pressing]'! Falling back to vanilla: Failed to read required component 'results: either<fluid_stack, create:processing_output>[]' - java.lang.IllegalStateException: Failed to parse either. First: No key amount in MapLike[{"count":8,"item":{"id":"createfood:dark_chocolate_chips"}}]; No key id in MapLike[{"count":8,"item":{"id":"createfood:dark_chocolate_chips"}}]; Second: No key id in MapLike[{"count":8,"item":{"id":"createfood:dark_chocolate_chips"}}]
+[18:59:43] [main/WARN] [KubeJS Server/]: KubeRecipe.java#89: Failed to parse recipe 'createfood:create/deploying/eggplant_bun_lettuce_from_deploying[create:deploying]'! Falling back to vanilla: Failed to read required component 'results: either<fluid_stack, create:processing_output>[]' - java.lang.IllegalStateException: Failed to parse either. First: No key amount in MapLike[{"item":{"id":"createfood:eggplant_bun_lettuce"}}]; No key id in MapLike[{"item":{"id":"createfood:eggplant_bun_lettuce"}}]; Second: No key id in MapLike[{"item":{"id":"createfood:eggplant_bun_lettuce"}}]
+[18:59:43] [main/WARN] [KubeJS Server/]: KubeRecipe.java#89: Failed to parse recipe 'irons_spellbooks:create_compat/create_fill_epic_ink[create:filling]'! Falling back to vanilla: Failed to read required component 'ingredients: either<create:sized_fluid_ingredient, ingredient>[]' - java.lang.IllegalStateException: Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / neoforge:fluid_ingredient_type]: minecraft:fluid_stack; Unknown registry key in ResourceKey[minecraft:root / neoforge:fluid_ingredient_type]: minecraft:fluid_stack; Second: Failed to parse either. First: Not a json array: {"type":"fluid_stack","fluid":"irons_spellbooks:epic_ink","amount":250}; Second: Unknown registry key in ResourceKey[minecraft:root / neoforge:ingredient_serializer]: minecraft:fluid_stack
+[18:59:43] [main/WARN] [KubeJS Server/]: KubeRecipe.java#89: Failed to parse recipe 'createframed:item_application/bound_cardboard/gray[create:item_application]'! Falling back to vanilla: Failed to read required component 'results: either<fluid_stack, create:processing_output>[]' - java.lang.IllegalStateException: Failed to parse either. First: No key amount in MapLike[{"item":{"id":"createframed:bound_gray_cardboard_block"}}]; No key id in MapLike[{"item":{"id":"createframed:bound_gray_cardboard_block"}}]; Second: No key id in MapLike[{"item":{"id":"createframed:bound_gray_cardboard_block"}}]
+[18:59:43] [main/WARN] [KubeJS Server/]: KubeRecipe.java#89: Failed to parse recipe 'create_oxidized:create/copper_shingle_slab/weathered_copper_shingle_slab[create:filling]'! Falling back to vanilla: Failed to read required component 'results: either<fluid_stack, create:processing_output>[]' - java.lang.IllegalStateException: Failed to parse either. First: No key amount in MapLike[{"item":{"id":"create:weathered_copper_shingle_slab"}}]; No key id in MapLike[{"item":{"id":"create:weathered_copper_shingle_slab"}}]; Second: No key id in MapLike[{"item":{"id":"create:weathered_copper_shingle_slab"}}]
+[18:59:43] [main/WARN] [KubeJS Server/]: KubeRecipe.java#89: Failed to parse recipe 'createfood:create/mixing/butter_dough_from_mixing[create:mixing]'! Falling back to vanilla: Failed to read required component 'results: either<fluid_stack, create:processing_output>[]' - java.lang.IllegalStateException: Failed to parse either. First: No key amount in MapLike[{"count":3,"item":{"id":"createfood:butter_dough"}}]; No key id in MapLike[{"count":3,"item":{"id":"createfood:butter_dough"}}]; Second: No key id in MapLike[{"count":3,"item":{"id":"createfood:butter_dough"}}]
+[18:59:43] [main/WARN] [KubeJS Server/]: KubeRecipe.java#89: Failed to parse recipe 'createfood:create/mixing/hot_white_chocolate_bucket_from_mixing_heated[create:mixing]'! Falling back to vanilla: Failed to read required component 'results: either<fluid_stack, create:processing_output>[]' - java.lang.IllegalStateException: Failed to parse either. First: No key amount in MapLike[{"item":{"id":"createfood:hot_white_chocolate_bucket"}}]; No key id in MapLike[{"item":{"id":"createfood:hot_white_chocolate_bucket"}}]; Second: No key id in MapLike[{"item":{"id":"createfood:hot_white_chocolate_bucket"}}]
+[18:59:43] [main/WARN] [KubeJS Server/]: RecipeComponentValue.java#102: Failed to parse recipe 'createdieselgenerators:crushing/wood_chip_chests[create:crushing]' @ [ingredients][0][right]! Falling back to vanilla: Invalid component ingredients: either<create:sized_fluid_ingredient, ingredient>[] - Component 'ingredient' is not allowed to be empty!
+[18:59:43] [main/WARN] [KubeJS Server/]: KubeRecipe.java#89: Failed to parse recipe 'createframed:item_application/bound_cardboard/light_blue[create:item_application]'! Falling back to vanilla: Failed to read required component 'results: either<fluid_stack, create:processing_output>[]' - java.lang.IllegalStateException: Failed to parse either. First: No key amount in MapLike[{"item":{"id":"createframed:bound_light_blue_cardboard_block"}}]; No key id in MapLike[{"item":{"id":"createframed:bound_light_blue_cardboard_block"}}]; Second: No key id in MapLike[{"item":{"id":"createframed:bound_light_blue_cardboard_block"}}]
+[18:59:43] [main/WARN] [KubeJS Server/]: KubeRecipe.java#89: Failed to parse recipe 'createfood:create/deploying/raw_bacon_calzone_from_deploying[create:deploying]'! Falling back to vanilla: Failed to read required component 'results: either<fluid_stack, create:processing_output>[]' - java.lang.IllegalStateException: Failed to parse either. First: No key amount in MapLike[{"item":{"id":"createfood:raw_bacon_calzone"}}]; No key id in MapLike[{"item":{"id":"createfood:raw_bacon_calzone"}}]; Second: No key id in MapLike[{"item":{"id":"createfood:raw_bacon_calzone"}}]
+[18:59:43] [main/WARN] [KubeJS Server/]: KubeRecipe.java#89: Failed to parse recipe 'create_confectionery:chocolate_candy_recipe[create:filling]'! Falling back to vanilla: Failed to read required component 'results: either<fluid_stack, create:processing_output>[]' - java.lang.IllegalStateException: Failed to parse either. First: No key amount in MapLike[{"item":{"id":"create_confectionery:chocolate_candy"}}]; No key id in MapLike[{"item":{"id":"create_confectionery:chocolate_candy"}}]; Second: No key id in MapLike[{"item":{"id":"create_confectionery:chocolate_candy"}}]
+[18:59:43] [main/INFO] [KubeJS Server/]: Found 17,424 recipes (skipped 1,705) in 857.8 ms
+[18:59:44] [main/ERROR] [minecraft/RecipeManager]: Error parsing recipe createadditionallogistics:crafting/trains/network_monitor: Failed to parse either. First: Not a json array: {"item":"computercraft:wireless_modem_advanced"}; Second: No key tag in MapLike[{"item":"computercraft:wireless_modem_advanced"}]; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: computercraft:wireless_modem_advanced
+[18:59:44] [main/ERROR] [minecraft/RecipeManager]: Error parsing recipe create:crushing/misc/scrap_scute: Failed to parse either. First: Failed to parse either. First: No key tag in MapLike[{"item":"minecraft:scute"}]; No key fluid in MapLike[{"item":"minecraft:scute"}]; No key type in MapLike[{"item":"minecraft:scute"}]; Second: Failed to parse either. First: No key amount in MapLike[{"item":"minecraft:scute"}]; No key fluid in MapLike[{"item":"minecraft:scute"}]; No key type in MapLike[{"item":"minecraft:scute"}]; Second: No key amount in MapLike[{"item":"minecraft:scute"}]; No key fluid_tag in MapLike[{"item":"minecraft:scute"}]; No key type in MapLike[{"item":"minecraft:scute"}]; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:scute"}; Second: No key tag in MapLike[{"item":"minecraft:scute"}]; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:scute
+[18:59:44] [main/ERROR] [minecraft/RecipeManager]: Error parsing recipe createdeco:placard: No key id in MapLike[{"item":"create:placard"}]
+[18:59:44] [main/INFO] [KubeJS Server/]: Posted recipe events in 663 ms
+[18:59:44] [main/INFO] [KubeJS Server/]: KubeJS modifications to recipe manager finished in 36.36 ms
+[18:59:44] [main/ERROR] [minecraft/RecipeManager]: Parsing error loading recipe createadditionallogistics:crafting/trains/network_monitor: com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: {"item":"computercraft:wireless_modem_advanced"}; Second: No key tag in MapLike[{"item":"computercraft:wireless_modem_advanced"}]; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: computercraft:wireless_modem_advanced
+[18:59:44] [main/ERROR] [minecraft/RecipeManager]: Parsing error loading recipe create:crushing/misc/scrap_scute: com.google.gson.JsonParseException: Failed to parse either. First: Failed to parse either. First: No key tag in MapLike[{"item":"minecraft:scute"}]; No key fluid in MapLike[{"item":"minecraft:scute"}]; No key type in MapLike[{"item":"minecraft:scute"}]; Second: Failed to parse either. First: No key amount in MapLike[{"item":"minecraft:scute"}]; No key fluid in MapLike[{"item":"minecraft:scute"}]; No key type in MapLike[{"item":"minecraft:scute"}]; Second: No key amount in MapLike[{"item":"minecraft:scute"}]; No key fluid_tag in MapLike[{"item":"minecraft:scute"}]; No key type in MapLike[{"item":"minecraft:scute"}]; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:scute"}; Second: No key tag in MapLike[{"item":"minecraft:scute"}]; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:scute
+[18:59:44] [main/ERROR] [minecraft/RecipeManager]: Parsing error loading recipe createdeco:placard: com.google.gson.JsonParseException: No key id in MapLike[{"item":"create:placard"}]
+[18:59:44] [main/INFO] [minecraft/RecipeManager]: Loaded 17304 recipes
+[18:59:44] [main/INFO] [KubeJS Server/]: Added 90 recipes, removed 207 recipes, modified 6 recipes, with 0 failed recipes taking 1.847 s in total
+[18:59:45] [main/INFO] [minecraft/AdvancementTree]: Loaded 8303 advancements
+[18:59:45] [main/WARN] [ne.ne.ne.co.lo.LootModifierManager/]: Could not decode GlobalLootModifier with json id petrolpark:contaminated_kinetic_blocks - error: Not a JSON object: null
+[18:59:45] [main/WARN] [ne.ne.ne.co.lo.LootModifierManager/]: Could not decode GlobalLootModifier with json id tempad:tempad_loot_modifier - error: Not a JSON object: null
+[18:59:45] [main/INFO] [Curios API/]: Loaded 13 curio slots
+[18:59:45] [main/INFO] [Curios API/]: Loaded 11 curio entities
+[18:59:45] [main/INFO] [co.ad.cr.CreateFisheryMod/]: Loaded peeler entity processing for: entity.minecraft.turtle
+[18:59:45] [main/INFO] [co.ad.cr.CreateFisheryMod/]: Loaded peeler entity processing for: entity.minecraft.armadillo
+[18:59:45] [main/INFO] [co.ad.cr.CreateFisheryMod/]: Loaded 2 peeler entity processing entries
+[18:59:45] [main/INFO] [Supplementaries/]: Loaded 28 flute songs
+[18:59:45] [main/INFO] [Moonlight/]: Applied 17 data villager trades
+[18:59:45] [main/INFO] [Moonlight/]: Failed to load custom color set definition {"id":"quark:rune","colors":{"default":"quark:blank_rune"},"replace":false}. Ignoring
+[18:59:45] [main/INFO] [Moonlight/]: Failed to load custom color set definition {"id":"quark:shard","colors":{"default":"quark:clear_shard"},"replace":false}. Ignoring
+[18:59:45] [main/INFO] [Supplementaries/]: Registering custom dispenser behaviors
+[18:59:45] [main/INFO] [co.pe.Petrolpark/]: Found 29 Ore Features
+[18:59:45] [main/WARN] [ModernFix/]: Initial datapack load took 5.109 s
+[18:59:45] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.21.1
+[18:59:45] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[18:59:45] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: SURVIVAL
+[18:59:45] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[18:59:45] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on 0.0.0.0:25504
+[18:59:45] [Server thread/INFO] [minecraft/ServerConnectionListener]: Using epoll channel type
+[18:59:45] [Server thread/INFO] [Puzzles Lib/]: Dispatching loading event for config easyanvils-server.toml
+[18:59:45] [Server thread/INFO] [Puzzles Lib/]: Dispatching loading event for config universalbonemeal-server.toml
+[18:59:45] [Server thread/INFO] [co.to.cr.CreateOreExcavation/]: Loaded Create Ore Excavation config file createoreexcavation-server.toml
+[18:59:45] [Server thread/INFO] [Puzzles Lib/]: Dispatching loading event for config easymagic-server.toml
+[18:59:45] [Server thread/WARN] [ne.ne.ne.se.ServerLifecycleHooks/]: Detected minecraft:mooshroom that was registered with CREATURE mob category but was added under MONSTER mob category for still_life:mushroom_caves biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[18:59:45] [Server thread/WARN] [ne.ne.ne.se.ServerLifecycleHooks/]: Detected minecraft:mooshroom that was registered with CREATURE mob category but was added under AMBIENT mob category for still_life:mushroom_caves biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[18:59:45] [Server thread/WARN] [ne.ne.ne.se.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for still_life:old_growth_tropical_rainforest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[18:59:46] [Server thread/INFO] [minecraft/MinecraftServer]:         __    
+[18:59:46] [Server thread/INFO] [minecraft/MinecraftServer]:   |    |__)   LuckPerms v5.4.150
+[18:59:46] [Server thread/INFO] [minecraft/MinecraftServer]:   |___ |      Running on NeoForge - NeoForge
+[18:59:46] [Server thread/INFO] [minecraft/MinecraftServer]: 
+[18:59:46] [Server thread/INFO] [luckperms/]: Loading configuration...
+[18:59:46] [Server thread/INFO] [luckperms/]: Loading storage provider... [H2]
+[18:59:46] [Server thread/INFO] [luckperms/]: Loading internal permission managers...
+[18:59:46] [Server thread/INFO] [luckperms/]: Performing initial data load...
+[18:59:46] [Server thread/INFO] [luckperms/]: Successfully enabled. (took 7133ms)
+[18:59:46] [Server thread/INFO] [FTB Teams/]: loaded team data: 12 known players, 13 teams total
+[18:59:46] [Server thread/INFO] [spark/]: Starting background profiler...
+[18:59:46] [Server thread/INFO] [Framework/]: Loading server configs...
+[18:59:46] [Server thread/INFO] [Async Locator/]: Async Locator -> Starting locating executor service with virtual threads (Java 21 )
+[18:59:46] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Initializing Open Parties and Claims for the server...
+[18:59:46] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Loading server info!
+[18:59:46] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Loading player configs...
+[18:59:46] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Loaded player configs!
+[18:59:46] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Loading parties...
+[18:59:46] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Loaded parties!
+[18:59:46] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Fixing party inconsistencies...
+[18:59:46] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Registered party system for OPAC: default
+[18:59:46] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Registered permission system for OPAC: luck_perms
+[18:59:46] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Registered permission system for OPAC: ftb_ranks
+[18:59:46] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Registered party system for OPAC: ftb_teams
+[18:59:46] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Registered permission system for OPAC: permission_api
+[18:59:46] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
+[18:59:46] [Server thread/INFO] [CheckedThreadLocalRandom/]: Enforcing safe world random access
+[18:59:46] [Server thread/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method readChunk in c2me-rewrites-chunk-system.mixins.json:async_serialization.MixinThreadedAnvilChunkStorage from mod c2me_rewrites_chunk_system cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[18:59:47] [Server thread/INFO] [minecraft/ChunkMap]: Changing watch distance to 5
+[18:59:47] [Server thread/INFO] [TheSpeedyObjectFactory/]: Using TheSpeedyObjectFactory with Unsafe
+[18:59:55] [Server thread/INFO] [minecraft/ChunkMap]: Changing watch distance to 5
+[18:59:55] [Server thread/INFO] [minecraft/ChunkMap]: Changing watch distance to 5
+[18:59:56] [Server thread/INFO] [minecraft/ChunkMap]: Changing watch distance to 5
+[18:59:56] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[18:59:56] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[18:59:56] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 70 ms
+[18:59:56] [Server thread/INFO] [minecraft/DedicatedServer]: Done (10.271s)! For help, type "help"
+[18:59:56] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler luckperms:permission_handler
+[18:59:56] [c2me-worker-2/WARN] [mixin/]: Method overwrite conflict for acquire in lithium.mixins.json:chunk.no_locking.PalettedContainerMixin from mod lithium, previously written by com.aziz.saturn.mixin.miscellaneous.threading_detector.PalettedContainerMixin. Skipping method.
+[18:59:56] [c2me-worker-2/WARN] [mixin/]: Method overwrite conflict for release in lithium.mixins.json:chunk.no_locking.PalettedContainerMixin from mod lithium, previously written by com.aziz.saturn.mixin.miscellaneous.threading_detector.PalettedContainerMixin. Skipping method.
+[18:59:56] [Server thread/INFO] [DragonLib/]: Starting DragonLib Network Manager (Server) worker thread...
+[18:59:56] [Server thread/INFO] [commandspy/]: CommandSpy avilix start
+[18:59:56] [DragonLib Network Manager (Server)/INFO] [DragonLib/]: DragonLib Network Manager (Server) worker thread has been started.
+[18:59:56] [Server thread/INFO] [de.de.mo.ModContainer/]: [modcontainer] Server starting - initializing services...
+[18:59:56] [Server thread/INFO] [de.de.mo.st.ma.StaffInventoryManager/]: Disk persistence disabled - staff inventories stored in memory only
+[18:59:56] [Server thread/INFO] [de.de.mo.lo.LoggingService/]: Initializing LoggingService with persistent storage
+[18:59:56] [Server thread/INFO] [de.de.mo.lo.LocalLogStorage/]: Initializing LocalLogStorage at /home/********/./world/./modcontainer/logs.db
+[18:59:56] [Server thread/INFO] [de.de.mo.lo.LocalLogStorage/]: LocalLogStorage initialized successfully
+[18:59:56] [Server thread/INFO] [de.de.mo.lo.LoggingService/]: Loaded 10000 recent logs from database
+[18:59:56] [Server thread/INFO] [de.de.mo.lo.LoggingService/]: LoggingService initialized successfully
+[18:59:56] [ModContainer-LogWriter/INFO] [de.de.mo.lo.LoggingService/]: Async write thread started
+[18:59:56] [Server thread/INFO] [de.de.mo.ab.AbuseGuardService/]: AbuseGuardService initialized
+[18:59:56] [Server thread/INFO] [de.de.mo.st.StaffModeService/]: StaffModeService initialized
+[18:59:56] [Server thread/INFO] [de.de.mo.ro.ChunkSnapshotStorage/]: Initializing ChunkSnapshotStorage at /home/********/./world/./modcontainer/snapshots.db
+[18:59:56] [Server thread/INFO] [de.de.mo.ro.ChunkSnapshotStorage/]: ChunkSnapshotStorage initialized successfully
+[18:59:56] [Server thread/INFO] [de.de.mo.ro.ChunkSnapshotService/]: ChunkSnapshotService initialized (interval: 15 minutes)
+[18:59:56] [Server thread/INFO] [de.de.mo.ro.ChunkSnapshotService/]: ChunkSnapshotService started - snapshots every 15 minutes, cleanup every 24 hours
+[18:59:56] [Server thread/INFO] [de.de.mo.ro.RollbackService/]: RollbackService initialized
+[18:59:56] [Server thread/INFO] [de.de.mo.in.InspectService/]: InspectService initialized
+[18:59:56] [Server thread/INFO] [de.de.mo.ModContainer/]: [modcontainer] All services initialized successfully!
+[18:59:56] [Server thread/INFO] [de.de.ja.di.DiscordRankBridge/]: Discord Rank Bridge v1.0.2 starting...
+[18:59:56] [Server thread/INFO] [de.de.ja.di.MessageConfig/]: [DiscordRankBridge] Loaded message config from /home/********/config/discordrankbridge/discordrankbridge-messages.json
+[18:59:56] [Server thread/INFO] [de.de.ja.di.ChatListener/]: Multi-logger interception for BetterForgeChat initialized.
+[18:59:56] [Server thread/INFO] [de.de.ja.di.AfkTracker/]: [DiscordRankBridge] AFK Tracker initialized.
+[18:59:56] [Server thread/INFO] [de.de.ja.di.VerificationEnforcer/]: [DiscordRankBridge] VerificationEnforcer initialized.
+[18:59:56] [Server thread/INFO] [de.de.ja.di.WebhookServer/]: [DiscordBridge-DEBUG] ===== WebhookServer Starting =====
+[18:59:56] [Server thread/INFO] [de.de.ja.di.WebhookServer/]: [DiscordBridge-DEBUG] Bind Address: 0.0.0.0
+[18:59:56] [Server thread/INFO] [de.de.ja.di.WebhookServer/]: [DiscordBridge-DEBUG] Ports: [3000]
+[18:59:56] [Server thread/INFO] [de.de.ja.di.WebhookServer/]: [DiscordBridge-DEBUG] Path: /webhook
+[18:59:56] [Server thread/INFO] [de.de.ja.di.WebhookServer/]: [DiscordBridge-DEBUG] Auth Secret configured: true
+[18:59:56] [Server thread/INFO] [de.de.ja.di.WebhookServer/]: Webhook server started on 0.0.0.0:3000/webhook
+[18:59:56] [Server thread/INFO] [de.de.ja.di.DiscordRankBridge/]: Discord Rank Bridge services initialized.
+[18:59:56] [Server thread/INFO] [xa.ma.WorldMap/]: Registered synced player tracker system: ftb_teams
+[18:59:56] [Server thread/INFO] [de.av.ne.CreateFood/]: Create: Food - Server Startup
+[18:59:56] [Server thread/WARN] [me.ne.ta.pl.ne.NeoForgePlatform/]: [TAB] [config.yml] header-footer: Missing configuration section "header-footer.disable-condition" of type String, using default value %world%=disabledworld.
+[18:59:56] [Server thread/WARN] [me.ne.ta.pl.ne.NeoForgePlatform/]: [TAB] [animations.yml] .online: Animation "online" has refresh interval of 95, which is not divisible by 50! Using 100.
+[18:59:56] [ForkJoinPool.commonPool-worker-3/ERROR] [de.de.ja.di.DiscordRankBridge/]: Failed to send status notification. Status: 404
+[18:59:56] [Server thread/WARN] [me.ne.ta.pl.ne.NeoForgePlatform/]: [TAB] Found a total of 2 issues.
+[18:59:56] [Server thread/INFO] [me.ne.ta.pl.ne.NeoForgePlatform/]: [TAB] Enabled in 201ms
+[18:59:56] [Server thread/INFO] [ne.ra.vi.ViaRomana/]: Starting Via Romana schedulers...
+[18:59:56] [Server thread/INFO] [ne.ra.vi.ViaRomana/]: Scheduled map refreshing every 10 seconds.
+[18:59:56] [Server thread/INFO] [ne.ra.vi.ViaRomana/]: Scheduled map saving every 5 minutes.
+[18:59:56] [Server thread/INFO] [ne.ra.vi.ViaRomana/]: Loaded 0 biome-color pairs from config.
+[18:59:56] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Loading claims...
+[18:59:57] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Loaded claims in 35ms
+[18:59:57] [Server thread/WARN] [xa.pa.OpenPartiesAndClaims/]: The configured permission system "prometheus" isn't registered!
+[18:59:57] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Configured OPAC to use the following permission system: luck_perms
+[18:59:57] [Server thread/WARN] [xa.pa.OpenPartiesAndClaims/]: The configured primary party system "argonauts_guilds" isn't registered!
+[18:59:57] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Configured OPAC to use the following party system as primary: default
+[18:59:57] [Advanced Display Data Manager/INFO] [de.mr.cr.CreateRailwaysNavigator/]: Advanced Display Data Manager has been started.
+[18:59:57] [Server thread/INFO] [Observable/]: Registered thread Server thread
+[18:59:57] [Server thread/INFO] [FTB Quests/]: Loading quests from /home/********/config/ftbquests/quests
+[18:59:57] [Server thread/INFO] [FTB Quests/]: loaded translation tables for 1 language(s)
+[18:59:57] [CRN Train Listener Launcher/INFO] [de.mr.cr.CreateRailwaysNavigator/]: Train listener has been started.
+[18:59:57] [Server thread/INFO] [FTB Quests/]: Loaded 3 chapter groups, 7 chapters, 261 quests, 0 reward tables
+[18:59:57] [Server thread/INFO] [FTB Ranks/]: Loaded 3 ranks
+[19:00:07] [Server thread/WARN] [co.sk.wo.WorldEdit/]: Took more than 5 seconds to generate complete state map for immersive_furniture:furniture. This block is likely improperly using properties. State count: 16384. 7195ms elapsed.
+[19:00:14] [Server thread/WARN] [co.sk.wo.WorldEdit/]: Took more than 5 seconds to generate complete state map for immersive_furniture:furniture_light. This block is likely improperly using properties. State count: 24576. 5910ms elapsed.
+[19:00:15] [Server thread/INFO] [co.rv.bf.BetterForgeChat/]: Detected loaded status of luckperms is :true
+[19:00:15] [Server thread/INFO] [co.rv.bf.BetterForgeChat/]: Attempting to integrate LuckPerms API!
+[19:00:15] [Server thread/INFO] [co.rv.bf.BetterForgeChat/]: LuckPerms API found and integrated successfully!
+[19:00:15] [Server thread/INFO] [co.rv.bf.BetterForgeChat/]: Detected forge loaded status of FTB Essentials is :true
+[19:00:15] [Server thread/INFO] [co.rv.bf.BetterForgeChat/]: FTB Essentials integration was skipped by configuration file!
+[19:00:15] [Server thread/INFO] [co.rv.bf.BetterForgeChat/]: Integrated nickname management enabled successfully!
+[19:00:15] [Server thread/INFO] [de.de.ja.di.TabPlaytimeIntegration/]: [DiscordRankBridge] Registered TAB placeholders: %drb_playtime%, %drb_afk%
+[19:00:15] [Server thread/INFO] [minecraft/ChunkMap]: Changing watch distance to 5
+[19:00:15] [C2ME Storage #15/INFO] [C2ME Storage/]: Storage thread Thread[#220,C2ME Storage #15,8,SERVER] stopped
+[19:00:15] [C2ME Storage #14/INFO] [C2ME Storage/]: Storage thread Thread[#219,C2ME Storage #14,8,SERVER] stopped
+[19:00:15] [C2ME Storage #13/INFO] [C2ME Storage/]: Storage thread Thread[#218,C2ME Storage #13,8,SERVER] stopped
+[19:00:23] [Server thread/INFO] [minecraft/ChunkMap]: Changing watch distance to 5
+[19:00:23] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:00:23] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:00:23] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/irons_spellbooks:pocket_dimension
+[19:00:23] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:00:23] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:00:23] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:00:23] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
+[19:00:23] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:00:23] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:00:23] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Loading...
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [kt.application/]: Autoreload is disabled because the development mode is off.
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: / -> /assets/littlechasiu/ctm/static/index.html
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/logo.png -> /assets/littlechasiu/ctm/static/assets/logo.png
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/js/leaflet.rotated-marker.min.js -> /assets/littlechasiu/ctm/static/assets/js/leaflet.rotated-marker.min.js
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/js/leaflet.min.js -> /assets/littlechasiu/ctm/static/assets/js/leaflet.min.js
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/js/leaflet.curve.min.js -> /assets/littlechasiu/ctm/static/assets/js/leaflet.curve.min.js
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/js/ctm.train-manager.js -> /assets/littlechasiu/ctm/static/assets/js/ctm.train-manager.js
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/js/ctm.station-manager.js -> /assets/littlechasiu/ctm/static/assets/js/ctm.station-manager.js
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/js/ctm.map-icons.js -> /assets/littlechasiu/ctm/static/assets/js/ctm.map-icons.js
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/js/ctm.layer-manager.js -> /assets/littlechasiu/ctm/static/assets/js/ctm.layer-manager.js
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/js/ctm.data-manager.js -> /assets/littlechasiu/ctm/static/assets/js/ctm.data-manager.js
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/js/ctm.crs.js -> /assets/littlechasiu/ctm/static/assets/js/ctm.crs.js
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/js/ctm.control.list.js -> /assets/littlechasiu/ctm/static/assets/js/ctm.control.list.js
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/js/ctm.control.coords.js -> /assets/littlechasiu/ctm/static/assets/js/ctm.control.coords.js
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/js/create-track-map.js -> /assets/littlechasiu/ctm/static/assets/js/create-track-map.js
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/icons/trains.svg -> /assets/littlechasiu/ctm/static/assets/icons/trains.svg
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/icons/stations.svg -> /assets/littlechasiu/ctm/static/assets/icons/stations.svg
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/icons/layers.svg -> /assets/littlechasiu/ctm/static/assets/icons/layers.svg
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/icons/cursor.svg -> /assets/littlechasiu/ctm/static/assets/icons/cursor.svg
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/icons/center.svg -> /assets/littlechasiu/ctm/static/assets/icons/center.svg
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/favicon-64.png -> /assets/littlechasiu/ctm/static/assets/favicon-64.png
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/favicon-32.png -> /assets/littlechasiu/ctm/static/assets/favicon-32.png
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/css/leaflet.min.css -> /assets/littlechasiu/ctm/static/assets/css/leaflet.min.css
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [createtrackmap/]: /assets/css/create-track-map.css -> /assets/littlechasiu/ctm/static/assets/css/create-track-map.css
+[19:00:23] [DefaultDispatcher-worker-4/INFO] [kt.application/]: Application started in 0.037 seconds.
+[19:00:23] [DefaultDispatcher-worker-2/INFO] [kt.application/]: Responding at http://0.0.0.0:25526
+[19:00:23] [Server thread/INFO] [createtrackmap/]: Started Create Track Map server on port 25526
+[19:00:23] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Using server-ip as bind address: 0.0.0.0
+[19:00:23] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at 0.0.0.0:25537
+[19:00:23] [Server thread/WARN] [ModernFix/]: Dedicated server took 59.22 seconds to load
+[19:00:23] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Loading resources...
+[19:00:23] [Server thread/INFO] [STDOUT/]: [ca.spottedleaf.starlight.common.thread.GlobalExecutors:<clinit>:20]: [ScalableLux] Lighting scaling is enabled in externally managed mode
+[19:00:25] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Loading textures...
+[19:00:34] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Baking resources...
+[19:00:34] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Resources loaded.
+[19:00:34] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Initializing Storage: 'file' (Type: 'bluemap:file')
+[19:00:34] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Loading map 'world_irons_spellbooks_pocket_dimension'...
+[19:00:34] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Loading map 'world'...
+[19:00:35] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Loading map 'world_the_end'...
+[19:00:35] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Loading map 'world_the_nether'...
+[19:00:36] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: WebServer bound to all network interfaces on port 25706
+[19:00:36] [Thread-63/INFO] [BlueMap/]: WebServer started.
+[19:00:36] [BlueMap-Plugin-Loading/INFO] [BlueMap/]: Loaded!

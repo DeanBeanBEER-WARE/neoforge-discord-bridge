@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.dean.ja.discordrankbridge.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerListMixin",
+    "PlayerPickupMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
